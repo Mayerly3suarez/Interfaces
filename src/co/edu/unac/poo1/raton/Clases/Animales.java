@@ -72,4 +72,9 @@ public class Animales implements Movimiento, Raton {
         System.out.println("----------------------------------------------");
 
     }
+
+    @Override
+    public String getNombreOrdenar() {
+        return this.nombre;
+    }
 }

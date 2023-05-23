@@ -6,6 +6,8 @@ public interface Raton {
     boolean roer();
 
     void verInformacion();
+
+    String getNombreOrdenar();
 }
 
-}
+

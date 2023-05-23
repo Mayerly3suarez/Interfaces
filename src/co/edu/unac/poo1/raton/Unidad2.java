@@ -27,10 +27,10 @@ public class Unidad2 {
         listaAnimal.add(animal4);
 
 
-        Collections.sort(listaAnimal,Comparator.comparing(Animales::getNombre));
+        listaAnimal.sort(Comparator.comparing(Raton::getNombreOrdenar));
 
 
-        for (Raton animal: listaAnimal){
+        for ( Raton animal: listaAnimal){
             animal.verInformacion();
 
 
